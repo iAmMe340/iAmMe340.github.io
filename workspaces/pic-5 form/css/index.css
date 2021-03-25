@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    font-family: "arial";
+}
+header{
+    background-image: url("../img/banner.png");
+    width: 100%;
+    color: white;
+    background-size: cover;
+    height: 530px;
+}
+#titulo{
+    font-size: 80pt;
+    display: inline-block;
+    position: relative;
+    top: 60px;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
+.menu{
+    text-decoration: none;
+    font-size: 24pt;
+    background-color:  #f4d03f ;
+    color: white;
+    padding: 20px;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.7);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
+.menu:hover{
+    background-color:  #d4ac0d;
+    padding: 18px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.7);
+    font-size: 22pt;
+}
+nav{
+    margin-top: 50px;
+}
+fieldset{
+    margin-left: 10px;
+}
+label{
+    color: white;
+    font-size: 18pt;
+}
